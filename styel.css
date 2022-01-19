@@ -1,0 +1,144 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background-color:#9AA0B9  ;
+
+  }
+  .main{
+    background-image: url(./image.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: revert;
+      width: 90%;
+      min-height: 100%;
+      height: min-content;
+      margin: auto;
+      margin-top: 3rem;
+      padding: 3rem;
+  }
+  h3::before{
+    content: " ";
+    font-family: "Font Awesome 5 Free";
+    
+    
+  
+  
+
+  }
+  #home a{
+    color: red;
+  }
+
+  a{
+    text-decoration: none;
+    color: dimgray;
+  }
+  header{
+    width:100% ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+   padding: 0.5rem;
+  }
+  menu{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+  }
+  li{
+      list-style: none;
+      margin: 1rem;
+  }
+
+  button{
+    width: 5rem;
+    height: 3rem;
+    background-color: black;
+    color:whitesmoke;
+    border-radius: 10rem;
+  }
+
+  .start{
+    width: 45%;
+    padding:1rem;
+    
+
+  
+  
+  }
+  h1::before{
+    content: "Discover";
+    font-weight: lighter;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h1::after{
+    content: "Places!";
+background: -webkit-linear-gradient(#eee, rgba(245, 134, 8, 0.973));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  
+  }
+   .start::before, .start::after{
+    content: '';
+    display: inline-block;
+    background-image: url( https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png);
+    background-size: contain;
+    width: 3rem;
+    height: 3rem;
+     
+   }
+
+   .boxi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+   .info{
+     display: flex;
+     flex-direction: column;
+     width: 15%;
+   }
+   .box {
+     flex-basis: 10%;
+   }
+
+ .text p{
+   width: 25%;
+ }
+ p{
+   line-height: 2rem;
+ }
+
+ .start1{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+ }
+ 
+h2{
+  text-align: center;
+  font-size: 2rem;
+}
